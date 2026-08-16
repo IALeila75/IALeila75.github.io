@@ -1,90 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Leila KORTAS | AI Engineer & Researcher</title>
+    <meta
+        name="description"
+        content="Personal academic website of an AI Engineer, Data Scientist and Researcher."
+    >
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: auto;
-            padding: 40px 20px;
-            line-height: 1.6;
-        }
+    <title>YOUR NAME | AI Engineer & Researcher</title>
 
-        h1 {
-            font-size: 42px;
-        }
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        h2 {
-            margin-top: 50px;
-        }
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
 
-        a {
-            margin-right: 15px;
-        }
-    </style>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <h1>Leila KORTAS</h1>
+    <!-- ================= HEADER ================= -->
 
-    <h2>AI Engineer | Data Scientist | Researcher</h2>
+    <header class="site-header">
 
-    <p>
-        I am an AI Engineer and Data Scientist interested in
-        Artificial Intelligence, Machine Learning, Natural Language
-        Processing, Large Language Models and Generative AI.
-    </p>
+        <nav class="navbar">
 
-    <p>
-        <a href="#">Research</a>
-        <a href="#">Projects</a>
-        <a href="#">CV</a>
-    </p>
+            <div class="container nav-container">
 
-    <h2>Research Interests</h2>
+                <!-- Logo / Name -->
+                <a href="index.html" class="logo">
+                    YOUR NAME
+                </a>
 
-    <ul>
-        <li>Machine Learning</li>
-        <li>Natural Language Processing</li>
-        <li>Large Language Models</li>
-        <li>Generative AI</li>
-        <li>Retrieval-Augmented Generation</li>
-        <li>Intelligent Systems</li>
-    </ul>
+                <!-- Mobile menu button -->
+                <button
+                    class="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
 
-    <h2>Featured Projects</h2>
+                <!-- Navigation -->
+                <div class="nav-menu">
 
-    <h3>Intelligent Teacher Assistant</h3>
+                    <a href="index.html" class="nav-link active">
+                        Home
+                    </a>
 
-    <p>
-        An AI-based assistant using LLMs and RAG to support
-        teachers in educational content generation.
-    </p>
+                    <a href="#" class="nav-link">
+                        Research
+                    </a>
 
-    <h3>PDF Chatbot — RAG & LLM</h3>
+                    <a href="#" class="nav-link">
+                        Publications
+                    </a>
 
-    <p>
-        A question-answering system based on document retrieval,
-        embeddings and large language models.
-    </p>
+                    <a href="#" class="nav-link">
+                        Projects
+                    </a>
 
-    <h2>Education</h2>
+                    <a href="#" class="nav-link">
+                        Experience
+                    </a>
 
-    <p>
-        Engineering Degree in Artificial Intelligence
-    </p>
+                    <a href="#" class="nav-link">
+                        Education
+                    </a>
 
-    <h2>Contact</h2>
+                    <a href="#" class="nav-link">
+                        CV
+                    </a>
 
-    <p>
-        Email: your.email@example.com
-    </p>
+                    <a href="#" class="nav-link">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="container hero-container">
+
+                <!-- LEFT -->
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        AI ENGINEER · DATA SCIENTIST · RESEARCHER
+                    </p>
+
+                    <h1>
+                        Building intelligent systems
+                        with <span>Artificial Intelligence.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I work at the intersection of Machine Learning,
+                        Natural Language Processing, Generative AI and
+                        intelligent systems, with a focus on research-driven
+                        and real-world applications.
+                    </p>
+
+                    <!-- Buttons -->
+
+                    <div class="hero-buttons">
+
+                        <a href="#" class="btn btn-primary">
+                            Explore my research
+                        </a>
+
+                        <a href="#" class="btn btn-secondary">
+                            View my CV
+                        </a>
+
+                    </div>
+
+
+                    <!-- Social links -->
+
+                    <div class="social-links">
+
+                        <a href="#" target="_blank">
+                            GitHub
+                        </a>
+
+                        <a href="#" target="_blank">
+                            Google Scholar
+                        </a>
+
+                        <a href="#" target="_blank">
+                            ORCID
+                        </a>
+
+                        <a href="#" target="_blank">
+                            LinkedIn
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT -->
+
+                <div class="hero-profile">
+
+                    <div class="profile-photo">
+
+                        <div class="photo-placeholder">
+                            YOUR<br>
+                            PHOTO
+                        </div>
+
+                    </div>
+
+                    <div class="research-card">
+
+                        <p class="research-card-title">
+                            RESEARCH INTERESTS
+                        </p>
+
+                        <p>
+                            Machine Learning · NLP · LLMs ·
+                            Generative AI · RAG · Intelligent Systems
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESEARCH INTERESTS ================= -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <p class="eyebrow">
+                        RESEARCH
+                    </p>
+
+                    <h2>
+                        Research interests
+                    </h2>
+
+                </div>
+
+
+                <div class="research-grid">
+
+
+                    <!-- CARD 1 -->
+
+                    <article class="research-item">
+
+                        <span class="research-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Machine Learning
+                        </h3>
+
+                        <p>
+                            Machine learning, deep learning,
+                            predictive modelling and model evaluation.
+                        </p>
+
+                    </article>
+
+
+                    <!-- CARD 2 -->
+
+                    <article class="research-item">
+
+                        <span class="research-number">
+                            02
+                        </span>
+
+                        <h3>
+                            NLP & LLMs
+                        </h3>
+
+                        <p>
+                            Natural Language Processing, large language
+                            models, embeddings and semantic search.
+                        </p>
+
+                    </article>
+
+
+                    <!-- CARD 3 -->
+
+                    <article class="research-item">
+
+                        <span class="research-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Generative AI
+                        </h3>
+
+                        <p>
+                            Generative AI, Retrieval-Augmented Generation,
+                            prompt engineering and intelligent assistants.
+                        </p>
+
+                    </article>
+
+
+                    <!-- CARD 4 -->
+
+                    <article class="research-item">
+
+                        <span class="research-number">
+                            04
+                        </span>
+
+                        <h3>
+                            Intelligent Systems
+                        </h3>
+
+                        <p>
+                            AI assistants, decision-support systems
+                            and AI applications for real-world problems.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURED RESEARCH ================= -->
+
+        <section class="section section-light">
+
+            <div class="container featured-container">
+
+                <div>
+
+                    <p class="eyebrow">
+                        RESEARCH APPROACH
+                    </p>
+
+                    <h2>
+                        From research questions
+                        to intelligent systems.
+                    </h2>
+
+                </div>
+
+                <div>
+
+                    <p class="featured-text">
+                        My work combines scientific methodology with
+                        engineering practice: defining a problem,
+                        selecting appropriate data and models,
+                        evaluating results and building reproducible
+                        AI systems.
+                    </p>
+
+                    <a href="#" class="text-link">
+                        Discover my research →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURED PROJECTS ================= -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <p class="eyebrow">
+                        SELECTED WORK
+                    </p>
+
+                    <h2>
+                        Featured projects
+                    </h2>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <article class="project-card">
+
+                        <span>
+                            LLM · RAG · EDUCATION
+                        </span>
+
+                        <h3>
+                            Intelligent Teacher Assistant
+                        </h3>
+
+                        <p>
+                            An AI-based assistant designed to support
+                            teachers through structured educational
+                            content generation and retrieval.
+                        </p>
+
+                        <a href="#">
+                            View project →
+                        </a>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <span>
+                            NLP · LLM
+                        </span>
+
+                        <h3>
+                            PDF Chatbot
+                        </h3>
+
+                        <p>
+                            A document question-answering system
+                            combining embeddings, vector search,
+                            retrieval and large language models.
+                        </p>
+
+                        <a href="#">
+                            View project →
+                        </a>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <span>
+                            COMPUTER VISION
+                        </span>
+
+                        <h3>
+                            Waste Classification
+                        </h3>
+
+                        <p>
+                            An image classification project exploring
+                            deep learning approaches for automated
+                            waste recognition.
+                        </p>
+
+                        <a href="#">
+                            View project →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="cta-section">
+
+            <div class="container cta-container">
+
+                <div>
+
+                    <p class="eyebrow">
+                        OPEN TO OPPORTUNITIES
+                    </p>
+
+                    <h2>
+                        Interested in research collaborations
+                        or postdoctoral opportunities?
+                    </h2>
+
+                </div>
+
+                <a href="#" class="btn btn-light">
+                    Get in touch
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <span>
+                © 2026 YOUR NAME
+            </span>
+
+            <span>
+                Academic personal website
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
