@@ -1,338 +1,55 @@
-# Personal Academic Website — AI & Machine Learning
+# Portfolio Projets IA & Data Science
 
-Personal academic website and research portfolio of **Leila KORTAS**, Artificial Intelligence Engineer.
+Portfolio de projets en **Intelligence Artificielle, Machine Learning, NLP, Computer Vision, LLMs et Data Science**.
 
-The website presents my academic background, research interests, professional experience, AI projects, education and contact information.
+| Projet                              | Domaine                           | Stack Technique                                                 |
+| :---------------------------------- | :-------------------------------- | :-------------------------------------------------------------- |
+| **Home Credit Default Risk**        | Scoring Crédit & Machine Learning | Python, LightGBM, Pandas, Scikit-learn, Feature Engineering     |
+| **Yelp Insights & Vision**          | NLP & Computer Vision             | Python, BERTopic/LDA, EfficientNet/ViT, Yelp Fusion API         |
+| **Bad Buzz Detection**              | Sentiment Analysis & MLOps        | PyTorch/TensorFlow, DistilBERT, FastAPI, Docker, Azure          |
+| **Autonomous Driving Segmentation** | Computer Vision                   | PyTorch, U-Net/DeepLabV3+, FastAPI, Flask, Docker, ONNX         |
+| **News Recommendation Engine**      | Recommender Systems               | Python, Embeddings, ALS, Azure Functions                        |
+| **Visual Fashion Recommender**      | Computer Vision & Recommendation  | Azure ML, Azure Functions, FAISS, YOLO, Vision Transformer      |
+| **Chat with PDF**                   | LLM & RAG                         | LangChain/LlamaIndex, OpenAI/Mistral, FAISS/ChromaDB, Streamlit |
 
-## Website
-
-**Personal website:**
-https://ialeila75.github.io/
-
-**GitHub:**
-https://github.com/IALeila75
-
----
-
-## About
-
-I am an **Artificial Intelligence Engineer** with interests spanning:
+## Research & Technical Areas
 
 * Machine Learning
 * Deep Learning
 * Natural Language Processing
-* Large Language Models
-* Generative AI
-* Retrieval-Augmented Generation
+* Large Language Models (LLMs)
+* Retrieval-Augmented Generation (RAG)
 * Computer Vision
 * Recommender Systems
+* Semantic Search
+* Embeddings & Vector Databases
 * Data Science
-* Intelligent Information Retrieval
-
-My work focuses on the development of data-driven and AI-based systems, combining machine learning methods, semantic representations, language models and domain-specific knowledge.
-
----
-
-## Research Interests
-
-My main research interests include:
-
-### Natural Language Processing & LLMs
-
-* Natural Language Processing
-* Large Language Models
-* Transformer architectures
-* Text classification
-* Sentiment analysis
-* Embeddings
-* Semantic search
-* Retrieval-Augmented Generation
-
-### Computer Vision
-
-* Image classification
-* Semantic segmentation
-* Transfer learning
-* Visual embeddings
-* Image similarity
-* Computer vision for intelligent systems
-
-### Machine Learning
-
-* Supervised learning
-* Unsupervised learning
-* Feature engineering
-* Clustering
-* Predictive modelling
-* Model evaluation
-
-### Recommender Systems
-
-* Content-based recommendation
-* Collaborative filtering
-* Embedding-based recommendation
-* Similarity search
-* Recommendation evaluation
-
----
-
-## Selected AI Projects
-
-The website presents a selection of projects covering several areas of Artificial Intelligence.
-
-### 01 — PDF Question-Answering Assistant
-
-A document question-answering system combining semantic representations, vector search, retrieval and Large Language Models.
-
-**Areas:** NLP · LLM · RAG · Information Retrieval
-
-**Technologies:** Python · Embeddings · FAISS · Transformers · LLMs
-
----
-
-### 02 — Smart City — Urban Tree Management
-
-Analysis of urban tree data to explore spatial distribution and support the optimization of maintenance and intervention planning.
-
-**Areas:** Data Science · Smart City · Geospatial Analysis
-
-**Technologies:** Python · Pandas · Plotly · Folium · HeatMap
-
----
-
-### 03 — Public Health Nutrition Analytics
-
-Exploratory and analytical work on Open Food Facts data, including data preparation, missing-value treatment and nutritional indicators.
-
-**Areas:** Data Science · Public Health · Statistical Analysis
-
-**Technologies:** Python · Pandas · NumPy · Scikit-learn · Plotly
-
----
-
-### 04 — Credit Risk Scoring
-
-Machine learning project focused on predictive modelling for credit-risk assessment using structured financial data.
-
-**Areas:** Machine Learning · Predictive Modelling · Risk Analysis
-
-**Dataset:** Home Credit Default Risk
-
----
-
-### 05 — Restaurant Reviews & Customer Experience
-
-Analysis combining Natural Language Processing of customer reviews with computer vision approaches for restaurant-related image data.
-
-**Areas:** NLP · Sentiment Analysis · Computer Vision
-
-**Methods:** Topic Modelling · Sentiment Analysis · Aspect-Based Sentiment Analysis · Transfer Learning
-
----
-
-### 06 — Social Media Sentiment Analysis
-
-Deep learning project for sentiment classification on a large-scale Twitter dataset.
-
-**Areas:** NLP · Deep Learning · Sentiment Analysis
-
-**Methods:** RNN · LSTM · GRU · Bi-LSTM · Transformers · BERT
-
----
-
-### 07 — Semantic Image Segmentation for Autonomous Systems
-
-Computer vision project focused on semantic segmentation for autonomous-system applications using the Cityscapes dataset.
-
-**Areas:** Computer Vision · Semantic Segmentation · Embedded AI
-
-**Methods:** U-Net · DeepLabV3+ · ResNet · MobileNet · ONNX
-
----
-
-### 08 — Personalized News Recommendation
-
-Recommendation system based on user interaction history and article representations.
-
-**Areas:** Recommender Systems · NLP · Machine Learning
-
-**Methods:** Content-Based Filtering · Collaborative Filtering · Embeddings
-
-**Evaluation:** Precision@K · Recall@K · NDCG · Diversity · Novelty
-
----
-
-### 09 — Visual Clothing Recommendation
-
-AI system for recommending visually similar clothing items using image representations and vector similarity.
-
-**Areas:** Computer Vision · Visual Search · Recommendation
-
-**Methods:** Visual Embeddings · Similarity Search · Image Representation
-
-**Technologies:** ResNet · EfficientNet · CLIP · FAISS
-
----
-
-### 10 — Customer Segmentation with RFM & K-Means
-
-Customer analytics project using transactional data to identify behavioural segments.
-
-**Areas:** Unsupervised Learning · Customer Analytics
-
-**Methods:** RFM Analysis · K-Means Clustering · Silhouette Analysis
-
-**Technologies:** Python · Pandas · Scikit-learn
-
----
+* MLOps & AI Deployment
 
 ## Technologies
 
-### Programming
+**Programming:** Python, SQL, HTML, CSS, JavaScript
 
-* Python
-* SQL
-* HTML
-* CSS
-* JavaScript
+**Machine Learning:** Scikit-learn, LightGBM, PyTorch, TensorFlow
 
-### Machine Learning
+**NLP & LLM:** Transformers, BERT, DistilBERT, LangChain, LlamaIndex
 
-* Scikit-learn
-* PyTorch
-* TensorFlow
+**Computer Vision:** OpenCV, CNNs, U-Net, DeepLabV3+, Vision Transformers
 
-### NLP & Generative AI
+**Data & Visualization:** Pandas, NumPy, Matplotlib, Plotly
 
-* Transformers
-* Large Language Models
-* Embeddings
-* FAISS
-* RAG
-* LangChain
+**Deployment:** FastAPI, Flask, Docker, Azure, Git, GitHub
 
-### Data Science
+## Website
 
-* Pandas
-* NumPy
-* Matplotlib
-* Plotly
+Personal academic website:
 
-### Computer Vision
+**https://ialeila75.github.io/**
 
-* OpenCV
-* CNNs
-* Transfer Learning
-* Semantic Segmentation
+## GitHub
 
-### Development & Deployment
-
-* Git
-* GitHub
-* FastAPI
-* APIs
-* Jupyter
-* Google Colab
-* Kaggle
+**https://github.com/IALeila75**
 
 ---
-
-## Website Structure
-
-```text
-IALeila75.github.io/
-│
-├── index.html
-├── research.html
-├── publications.html
-├── projects.html
-├── experience.html
-├── education.html
-├── cv.html
-├── contact.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-└── README.md
-```
-
----
-
-## Website Sections
-
-### Home
-
-Academic and professional profile, research orientation and main areas of expertise.
-
-### Research
-
-Research interests, methodologies and scientific directions.
-
-### Publications
-
-Scientific publications, manuscripts, conferences and other research outputs.
-
-### Projects
-
-Selected Artificial Intelligence and Data Science projects.
-
-### Experience
-
-Professional and technical experience.
-
-### Education
-
-Academic background and qualifications.
-
-### CV
-
-Curriculum vitae and downloadable academic documents.
-
-### Contact
-
-Professional contact information and links to academic or technical profiles.
-
----
-
-## Purpose
-
-This website is designed as an academic and professional portfolio for:
-
-* Postdoctoral applications
-* Research collaborations
-* AI research opportunities
-* Academic collaborations
-* AI engineering opportunities
-* Research-oriented projects
-
-The objective is to provide a concise overview of my background, technical expertise, research interests and selected AI projects.
-
----
-
-## Status
-
-**Website:** In development
-
-The website is progressively being expanded with:
-
-* Research projects
-* Publications
-* Academic experience
-* CV
-* Research collaborations
-* GitHub repositories
-* Technical documentation
-
----
-
-## License
-
-This repository contains the source code of my personal academic website.
-
-Unless otherwise stated, the personal content, curriculum vitae, photographs and research materials are not licensed for redistribution.
 
 © 2026 Leila KORTAS
